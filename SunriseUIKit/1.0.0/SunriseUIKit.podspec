@@ -11,14 +11,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*.{swift}'
-  s.weak_frameworks = 'Foundation', 'UIKit'
+  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*.{h}'
+  s.frameworks = 'UIKit'
 
   s.module_name = 'SunriseUIKit'
   s.swift_version = '4.1'
-  s.dependency 'SunriseCoreKit', '~> 1.0.0'
-  
-=begin  
-  s.dependency 'SunriseCoreKit'
-=end
 end
