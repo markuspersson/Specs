@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/markuspersson/SunriseSDK"
   s.license          = 'MIT'
   s.author           = { "Markus Persson" => "persson@ustwo.com" }
-  s.source           = { :git => "git@github.com:markuspersson/SunriseSDK.git" }
+  s.source           = { :git => "https://github.com/markuspersson/SunriseSDK.git" }
   s.social_media_url = 'https://twitter.com/markuspustwo'
 
   s.ios.deployment_target = '10.0'
