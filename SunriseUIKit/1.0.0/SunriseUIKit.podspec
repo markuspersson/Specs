@@ -11,9 +11,14 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*.{h}'
+  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*'
+  s.public_header_files = 'SunriseUIKit/SunriseUIKit/**/*.h'
   s.frameworks = 'UIKit'
 
   s.module_name = 'SunriseUIKit'
   s.swift_version = '4.1'
+
+  s.resource_bundles = {
+    'SunriseUIKit' => ['SunriseUIKit/SunriseUIKit/**/*.xib']
+  }
 end
