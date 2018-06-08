@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*.{swift, h}'
-  s.public_header_files = 'SunriseUIKit/SunriseUIKit/Resources/SunriseUIKit.h'
+  s.source_files = 'SunriseUIKit/SunriseUIKit/**/*'
   s.frameworks = 'UIKit'
   
   s.swift_version = '4.1'  
