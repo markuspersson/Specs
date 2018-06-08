@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SunriseUIKit/SunriseUIKit/**/*.swift'
   s.frameworks = 'UIKit'
-  s.module_name = 'SunriseUIKit'
+  
   s.swift_version = '4.1'
+  s.module_name = 'SunriseUIKit'
+  
+  s.dependency 'SunriseCoreKit'
 end
