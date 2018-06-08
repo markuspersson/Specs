@@ -14,4 +14,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.module_name = 'SunriseUIKit'
   s.swift_version = '4.1'
+
+  s.resource_bundles = {
+    'SunriseUIKit' => ['SunriseUIKit/SunriseUIKit/**/*.xib']
+  }
 end
