@@ -8,10 +8,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => "git@github.com:markuspersson/SunriseSDK.git" }
   s.social_media_url = 'https://twitter.com/markuspustwo'
 
-  s.platform     = :ios, '10.0'
-  s.requires_arc = true
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SunriseCoreKit/SunriseCoreKit/**/*.{h}'
+  s.source_files = 'SunriseCoreKit/SunriseCoreKit/**/*.swift'
   s.frameworks = 'Foundation'
 
   s.module_name = 'SunriseCoreKit'
