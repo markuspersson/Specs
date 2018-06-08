@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SunriseCoreKit/SunriseCoreKit/**/*.{swift, h}'
+  s.public_header_files = 'SunriseCoreKit/SunriseCoreKit/**/*.h'
   s.frameworks = 'Foundation'
 
   s.module_name = 'SunriseCoreKit'
