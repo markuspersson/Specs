@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SunriseCoreKit/SunriseCoreKit/**/*}'
+  s.source_files = 'SunriseCoreKit/SunriseCoreKit/**/*'
   s.frameworks = 'Foundation'
   s.swift_version = '4.1'
 end
